@@ -1,0 +1,44 @@
+{
+  "name": "alexandretoullec-react-ts-modal",
+  "description": "React custom Modal component",
+  "author": "Alexandre Toullec",
+  "license": "ISC",
+  "version": "0.0.1",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "node-sass": "^8.0.0",
+    "typescript": "^5.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "build": "tsc && npm run build-scss && cp src/lib/components/Modal/modal.scss dist/components/Modal && cp package.json README.md dist",
+    "build-scss": "node-sass --include-path ./src/lib -o ./dist --output-style compressed ./src/lib/index.scss"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.0.4",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "node-sass": "^8.0.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "node-sass": "^8.0.0"
+  }
+}
