@@ -36,14 +36,9 @@
       <a href="#installation">Installation</a>
     </li>
     <li>
-      <a href="#documentation">Documentation</a>
-    </li>
-    <li>
       <a href="#example">Example</a>
     </li>
-    <li>
-      <a href="#demo">Demo</a>
-    </li>
+    
   </ul>
 
 <!-- GETTING STARTED -->
@@ -57,16 +52,6 @@ $ npm install alexandretoullec-react-ts-modal
 $ yarn add alexandretoullec-react-ts-modal
 $ pnpm add alexandretoullec-react-ts-modal
 ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Documentation -->
-
-## Documentation
-
-The basic documentation can be consulted here: [Documentation](https://jv-react-modal-doc.netlify.app/)
-
-The documentation contains the description of all the props available for the modal component, and examples of usage.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,9 +112,3 @@ root.render(
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- DEMO -->
-
-## Demo
-
-Several demos of the various features are available here: [Modal demos](https://jv-react-modal-doc.netlify.app/#/examples/)
